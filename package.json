@@ -1,0 +1,25 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "p": "zenn preview",
+    "n:a": "zenn new:article",
+    "n:b": "zenn new:book",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igm50/zenn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igm50/zenn/issues"
+  },
+  "homepage": "https://github.com/igm50/zenn#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.110"
+  }
+}
