@@ -1,9 +1,9 @@
 ---
-title: "Zennに移行する前に: Zenn Getting Started"
+title: "Zennに移行する: Zenn Getting Started"
 emoji: "✋"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Zenn, JavaScript, GitHub]
-published: false
+published: true
 ---
 
 思うところあって、メインの技術ブログをZennに移行することにしました。
@@ -23,7 +23,7 @@ published: false
 - Zennにアカウント登録できていること
 - GitHubにアカウント登録できていること
 
-## 1. Zenn CLI環境構築
+## Zenn CLI環境構築
 
 参考記事①: [Zenn CLIをインストールする](https://zenn.dev/zenn/articles/install-zenn-cli)
 参考記事②: [Zenn CLIで記事・本を管理する方法](https://zenn.dev/zenn/articles/zenn-cli-guide)
@@ -49,13 +49,15 @@ $ npx zenn init
 ```
 
 導入後、正常に動作するか確認しましょう。
-下記コマンドを実行し、適当なブラウザで`http://localhost:8000/`にアクセスして見てください。
 
 ```terminal
 $ npx zenn preview
 ```
 
+適当なブラウザで`http://localhost:8000/`にアクセスしてみてください。
 `Zenn Editor`が表示されればOKです！
+
+![](/images/1/2022-05-05_3.png)
 
 ### npxではなくnpmでやりたい場合
 
@@ -81,7 +83,7 @@ Zenn側の記事では`npx zenn ***`コマンドで実行する形式で記述�
 `npx zenn ***`を`"xxx": "zenn ***"`と記述しただけですね。
 これで`Zenn Editor`を開きたい場合は`npm run p`でできるようになりました。やったね！
 
-## 2. GitHub連携
+## GitHub連携
 
 参考資料: [GitHubリポジトリでZennのコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)
 
@@ -125,7 +127,7 @@ $ git push origin {ブランチ名}
 
 ![](/images/1/2022-05-05_2.png)
 
-画面に表示されている通り、自動作成した記事は下書き設定になっているため、Zennと連携しても公開されないので安心です。
+自動作成した記事は下書き設定になっているため、Zennと連携しても公開されないので安心です。
 (記事ファイル6行目くらいに記述されている`published: false`のこと)
 
 記事が書けたら先ほど指定したブランチにコミットし、リポジトリにプッシュしましょう。
@@ -140,5 +142,5 @@ $ git push origin {ブランチ名}
 ## おわりに
 
 GitHub連携してくれるのは非常にありがたいですね。
-プレビュー機能が用意されているのも非常にグッド。
+プレビュー機能が用意されているのもグッド。
 これでローカルのエディターからコピペすることなくスムーズに記事が書けます。嬉しい。
