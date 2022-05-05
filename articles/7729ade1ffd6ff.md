@@ -25,8 +25,8 @@ published: true
 
 ## Zenn CLI環境構築
 
-参考記事①: [Zenn CLIをインストールする](https://zenn.dev/zenn/articles/install-zenn-cli)
-参考記事②: [Zenn CLIで記事・本を管理する方法](https://zenn.dev/zenn/articles/zenn-cli-guide)
+参考資料①: [Zenn CLIをインストールする](https://zenn.dev/zenn/articles/install-zenn-cli)
+参考資料②: [Zenn CLIで記事・本を管理する方法](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
 Zennでは記事の執筆・プレビュー手段として`Zenn CLI`が用意されているようです。
 `Zenn CLI`はnpmライブラリで、ローカル環境に記事ファイル作成やプレビューを行える環境が構築できます。
