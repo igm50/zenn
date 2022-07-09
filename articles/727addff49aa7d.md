@@ -3,7 +3,7 @@ title: "React Nativeアプリ開発の覚書"
 emoji: "��"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [JavaScript, TypeScript, React Native]
-published: false
+published: true
 ---
 
 本記事は覚書になります。
@@ -18,7 +18,7 @@ Expoはフレームワーク、React Native Cliはライブラリという印象
 
 ### Expo
 
-Expoの場合、ライブラリ管理やビルドにExpoを経由することが多い。
+Expoの場合、ライブラリ管理にExpoを経由することが多い。
 Expo側でしっかり各ライブラリの整合性を見てくれているのか、たまたま引っ掛からなかっただけなのか、特に何か新しく入れて動かなくなったということはなかったように思う。
 
 ただ、フレームワークの常というべきか、やっぱりExpo側で用意したレールにしっかり乗る必要がある。
@@ -52,7 +52,7 @@ ReactのコードをReact NativeとしてAndroid/IOS用アプリケーション�
 
 使い勝手でいうとRNNの方が良さそうではある。
 特にReact Navigationだと関数を引数として渡すことができないこともあり、RNNの方が感覚的に扱えるように思う。
-けど、Redux時代ならともかく今はRecoil導入が大前提の流れが来ているように感じるので、直接関数をNavigationに引き渡す機会はあんまりなさそう。
+けど、Redux時代ならともかく今はRecoil導入が大前提の流れが来ているように感じるので、直接関数を引き渡す機会はあんまりなさそう。
 後はRNNの方がTypeScriptの型定義が簡潔に済むように感じたけど、そこもRecoilを使う前提ならそこまで苦じゃなさそう。
 
 つまり理由がなければReact Navigationでいいんじゃないかな。
