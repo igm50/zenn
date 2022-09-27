@@ -2,14 +2,17 @@
 title: "React Nativeアプリ開発の覚書"
 emoji: "��"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: [JavaScript, TypeScript, React Native]
+topics: [JavaScript, TypeScript, ReactNative]
 published: true
 ---
 
 本記事は覚書になります。
 React Nativeアプリの開発で思ったこと、考えたことを忘れないようにメモしたものです。
 しっかり調査や整理をしたものではないため、チラ裏程度にどうぞ。
-気が向いたら更新します。
+
+これ以降の覚書はこっちで↓
+
+https://zenn.dev/jintz/scraps/cce766a6127e32
 
 ## Expo、React Native Cli
 
